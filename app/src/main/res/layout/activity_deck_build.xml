@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeckBuild_Activity"
+    android:screenOrientation="landscape"
+    android:background="@drawable/backmaker">
+
+    <ListView
+        android:id="@+id/LVcardcollaction"
+        android:layout_width="261dp"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/LVdeck"
+        android:layout_width="148dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

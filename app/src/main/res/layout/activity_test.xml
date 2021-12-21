@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test_activity">
+
+    <EditText
+        android:id="@+id/CardNameT"
+        android:layout_width="491dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/IMGT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IMGCard"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PowerT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Power" />
+
+    <EditText
+        android:id="@+id/DescriptionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/TypeT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type" />
+
+    <EditText
+        android:id="@+id/RarityLevelT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Rarity Level" />
+
+    <EditText
+        android:id="@+id/Type_DealerT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type_Dealer" />
+
+    <Button
+        android:id="@+id/BTNCreateCardT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Card" />
+
+    <Button
+        android:id="@+id/BTNCreateC_ConditionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Condition Cars" />
+
+    <Button
+        android:id="@+id/BTNcreatecardback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create cardback" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641655302212",
+    "project_id": "hearthofstonexp",
+    "storage_bucket": "hearthofstonexp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641655302212:android:64108b9be6d2c8b2463411",
+        "android_client_info": {
+          "package_name": "com.example.heartofstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641655302212-dqk3fkgarojtk1lsh95j0njg6gejc7li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrrJz8VuwN6JwRfC9gv39pwANKxav8pEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641655302212-dqk3fkgarojtk1lsh95j0njg6gejc7li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

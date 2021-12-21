@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heartofstone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HeartOfStone">
+        <activity android:name=".Lobbies_activity"></activity>
+        <activity android:name=".Test_activity" />
+        <activity android:name=".SignUp_Activity" />
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Achivment_Activity" />
+        <activity android:name=".Play_Activity" />
+        <activity android:name=".DeckBuild_Activity" />
+        <activity android:name=".Customize_Activity" />
+        <activity android:name=".Main_Activity" />
+    </application>
+
+</manifest>

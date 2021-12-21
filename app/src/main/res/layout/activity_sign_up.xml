@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupback"
+    android:orientation="vertical"
+    tools:context=".SignUp_Activity">
+
+    <TextView
+        android:id="@+id/TVRegister"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Register"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <EditText
+        android:id="@+id/TVUserNameR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a username"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/TVPasswordR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a password"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/TVEmailR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email address"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/TVPhoneNumR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:inputType="number"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/TVAgeR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/BTNRegisterFinish"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/btnstart"
+        android:text="Register" />
+</LinearLayout>
